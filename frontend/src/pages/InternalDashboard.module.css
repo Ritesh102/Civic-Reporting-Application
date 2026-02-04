@@ -1,0 +1,96 @@
+.page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.login {
+  margin-bottom: 2rem;
+}
+
+.login label,
+.login .select,
+.login .btn {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.select {
+  padding: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
+
+.btnSecondary {
+  padding: 0.35rem 0.75rem;
+  background: transparent;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btnSecondary:hover {
+  background: #eff6ff;
+}
+
+.dashboard {
+  margin-top: 0.5rem;
+}
+
+.bar {
+  margin-bottom: 0.5rem;
+}
+
+.internalLink {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.tableWrap {
+  margin-top: 1rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table th {
+  font-weight: 600;
+}
+
+.rowLimited {
+  background: #fef3c7;
+}
+
+.error {
+  color: #991b1b;
+  margin-top: 1rem;
+}
